@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, I'm Bhargav Bhalodiya</h1>
 
 <p align="center">
-  <img src="ChatGPT Image Jul 19, 2025, 07_34_22 PM.png" alt="banner" />
+  <img src="img.png" alt="banner" />
 </p>
 
 <p align="center">
