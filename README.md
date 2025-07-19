@@ -41,8 +41,12 @@
 | ✅ **Data Visualization using Plotly** | Coursera Project Network | 2024 |
 | ✅ **Python for Beginners: Data Structures** | Coursera Project Network | 2024 |
 | ✅ **Python for Beginners: Variables & Strings** | Coursera Project Network | 2024 |
-
-> 📜 Upload proof (certification badges or links) directly in the repo or as a badge in your README.
+| ✅ **Network Defense** *(Module)* | Cisco Networking Academy | Dec 2024 |
+| ✅ **Introduction to Cybersecurity** *(Badge + Certificate)* | Cisco Networking Academy | Dec 2024 |
+| ✅ **Resource Specialist** *(Module)* | Cisco Networking Academy | Dec 2024 |
+| ✅ **System Safeguards** *(Module)* | Cisco Networking Academy | Dec 2024 |
+| ✅ **Threat Analysis** *(Module)* | Cisco Networking Academy | Nov 2024 |
+| ✅ **Cybersecurity Administration** *(Module)* | Cisco Networking Academy | Nov 2024 |
 
 ---
 
