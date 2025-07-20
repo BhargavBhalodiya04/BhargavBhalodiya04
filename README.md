@@ -14,7 +14,7 @@
 
 - 🔭 I’m currently working on **AWS Cloud Projects**
 - 🌱 I’m learning **Terraform, Kubernetes, and CI/CD pipelines**
-- 💬 Ask me about **Python, AWS, or automation tools**
+- 💬 Ask me about **AWS, Networking or automation tools**
 - 📫 Connect with me: [LinkedIn](https://bhargavbhalodiya04.github.io/Portfolio/)
 
 ---
