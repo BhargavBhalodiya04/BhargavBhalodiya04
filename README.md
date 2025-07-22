@@ -54,5 +54,5 @@
 
 ## 📫 Contact
 
-- 🌐 [Portfolio Website](https://www.linkedin.com/in/bhargavbhalodiya/)
-- 💼 [LinkedIn](https://bhargavbhalodiya04.github.io/Portfolio/)
+- 🌐 [Portfolio Website](https://bhargavbhalodiya04.github.io/Portfolio/)
+- 💼 [LinkedIn](https://www.linkedin.com/in/bhargavbhalodiya/)
