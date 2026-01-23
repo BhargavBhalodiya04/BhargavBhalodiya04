@@ -38,11 +38,9 @@
 <img src="https://img.shields.io/badge/Jenkins-D24939?style=for-the-badge&logo=jenkins&logoColor=white"/>
 <img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white"/>
 
-<!-- Monitoring & Observability -->
+<!-- Monitoring -->
 <img src="https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white"/>
 <img src="https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white"/>
-<img src="https://img.shields.io/badge/AWS%20CloudWatch-FF4F8B?style=for-the-badge&logo=amazonaws&logoColor=white"/>
-<img src="https://img.shields.io/badge/ELK%20Stack-005571?style=for-the-badge&logo=elastic&logoColor=white"/>
 <img src="https://img.shields.io/badge/Alertmanager-CC0000?style=for-the-badge&logo=prometheus&logoColor=white"/>
 
 <!-- Version Control -->
@@ -76,11 +74,9 @@
 
 ## 📊 Monitoring Stack Experience
 
-- 📈 **Grafana** – Dashboards, alerts, metrics visualization  
-- 🔍 **Prometheus** – Metrics collection & alert rules  
-- 🚨 **Alertmanager** – Alert routing & notifications  
-- ☁️ **AWS CloudWatch** – Logs, metrics & alarms  
-- 📊 **ELK Stack** – Centralized logging & analysis  
+- 📈 **Grafana** – Dashboards & visualization  
+- 🔍 **Prometheus** – Metrics collection  
+- 🚨 **Alertmanager** – Alerting & notifications  
 
 ---
 
