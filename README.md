@@ -10,7 +10,6 @@
 
 ---
 
-
 ## 🧠 About Me
 
 - 🔭 I’m currently working on **AWS Cloud Projects**
