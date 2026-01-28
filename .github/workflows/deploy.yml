@@ -3,34 +3,28 @@ name: Deploy App
 on:
   push:
     branches:
-      - dev
-      - staging
+      - main
+  workflow_dispatch:
+    inputs:
+      target_env:
+        description: "Select environment"
+        required: true
+        default: development
+        type: choice
+        options:
+          - development
+          - staging
 
 jobs:
-  deploy-development:
-    if: github.ref == 'refs/heads/dev'
+  deploy:
     runs-on: ubuntu-latest
-    environment: development
+    environment: ${{ github.event.inputs.target_env || 'development' }}
 
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Deploy to Development
+      - name: Deploy
         run: |
-          echo "Deploying to Development"
-          echo ${{ secrets.DB_HOST }}
-
-  deploy-staging:
-    if: github.ref == 'refs/heads/staging'
-    runs-on: ubuntu-latest
-    environment: staging
-
-    steps:
-      - name: Checkout code
-        uses: actions/checkout@v4
-
-      - name: Deploy to Staging
-        run: |
-          echo "Deploying to Staging"
+          echo "Deploying to ${{ github.event.inputs.target_env || 'development' }}"
           echo ${{ secrets.DB_HOST }}
