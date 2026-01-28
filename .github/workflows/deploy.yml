@@ -1,0 +1,36 @@
+name: Deploy App
+
+on:
+  push:
+    branches:
+      - dev
+      - staging
+
+jobs:
+  deploy-development:
+    if: github.ref == 'refs/heads/dev'
+    runs-on: ubuntu-latest
+    environment: development
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Deploy to Development
+        run: |
+          echo "Deploying to Development"
+          echo ${{ secrets.DB_HOST }}
+
+  deploy-staging:
+    if: github.ref == 'refs/heads/staging'
+    runs-on: ubuntu-latest
+    environment: staging
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Deploy to Staging
+        run: |
+          echo "Deploying to Staging"
+          echo ${{ secrets.DB_HOST }}
