@@ -7,7 +7,6 @@
 <p align="center">
   <b>Cloud & DevOps Enthusiast | Python Developer | AWS Certified | Self-Learner</b>
 </p>
-
 ---
 
 ## 🧠 About Me
