@@ -17,13 +17,13 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout code
+        uses: actions/checkout@v4
 
       - name: Build
         run: |
           echo "Manual build started"
-          echo "BUILD_ID=${{ github.run_id }}"
-          mkdir dist
+          mkdir -p dist
           echo "${{ github.run_id }}" > dist/build.txt
 
       - name: Upload build artifact
@@ -40,10 +40,6 @@ jobs:
       matrix:
         env: [development, staging]
 
-    if: >
-      github.event.inputs.deploy_target == 'all' ||
-      github.event.inputs.deploy_target == matrix.env
-
     environment: ${{ matrix.env }}
 
     steps:
@@ -52,8 +48,10 @@ jobs:
         with:
           name: app-build
 
+      # ✅ CONDITION MOVED TO STEP LEVEL (FIX)
       - name: Deploy
+        if: ${{ github.event.inputs.deploy_target == 'all' || github.event.inputs.deploy_target == matrix.env }}
         run: |
           echo "Deploying to ${{ matrix.env }}"
-          echo "Using BUILD_ID:"
+          echo "BUILD_ID:"
           cat dist/build.txt
