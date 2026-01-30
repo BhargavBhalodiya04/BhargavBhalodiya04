@@ -1,10 +1,10 @@
-name: Build & Deploy (Manual Only)
+name: Direct Deploy (Manual Only)
 
 on:
   workflow_dispatch:
     inputs:
       deploy_target:
-        description: "Where do you want to deploy?"
+        description: "Select environment to deploy"
         required: true
         type: choice
         default: development
@@ -14,44 +14,32 @@ on:
           - all
 
 jobs:
-  build:
+  deploy-development:
+    if: ${{ github.event.inputs.deploy_target == 'development' || github.event.inputs.deploy_target == 'all' }}
     runs-on: ubuntu-latest
+    environment: development
+
     steps:
-      - name: Checkout code
+      - name: Checkout repo
         uses: actions/checkout@v4
 
-      - name: Build
+      - name: Deploy to development
         run: |
-          echo "Manual build started"
-          mkdir -p dist
-          echo "${{ github.run_id }}" > dist/build.txt
+          echo "🚀 Deploying to DEVELOPMENT"
+          echo "Repo: ${{ github.repository }}"
+          echo "Branch: ${{ github.ref_name }}"
 
-      - name: Upload build artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: app-build
-          path: dist/
-
-  deploy:
-    needs: build
+  deploy-staging:
+    if: ${{ github.event.inputs.deploy_target == 'staging' || github.event.inputs.deploy_target == 'all' }}
     runs-on: ubuntu-latest
-
-    strategy:
-      matrix:
-        env: [development, staging]
-
-    environment: ${{ matrix.env }}
+    environment: staging
 
     steps:
-      - name: Download build
-        uses: actions/download-artifact@v4
-        with:
-          name: app-build
+      - name: Checkout repo
+        uses: actions/checkout@v4
 
-      # ✅ CONDITION MOVED TO STEP LEVEL (FIX)
-      - name: Deploy
-        if: ${{ github.event.inputs.deploy_target == 'all' || github.event.inputs.deploy_target == matrix.env }}
+      - name: Deploy to staging
         run: |
-          echo "Deploying to ${{ matrix.env }}"
-          echo "BUILD_ID:"
-          cat dist/build.txt
+          echo "🚀 Deploying to STAGING"
+          echo "Repo: ${{ github.repository }}"
+          echo "Branch: ${{ github.ref_name }}"
