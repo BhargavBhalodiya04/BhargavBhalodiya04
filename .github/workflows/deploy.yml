@@ -1,32 +1,4 @@
-# name: Deploy App
-
-# on:
-#   workflow_dispatch:
-#     inputs:
-#       target_env:
-#         description: "Select environment"
-#         required: true
-#         default: development
-#         type: choice
-#         options:
-#           - development
-#           - staging
-
-# jobs:
-#   deploy:
-#     runs-on: ubuntu-latest
-#     environment: ${{ github.event.inputs.target_env || 'development' }}
-
-#     steps:
-#       - name: Checkout code
-#         uses: actions/checkout@v4
-
-#       - name: Deploy
-#         run: |
-#           echo "Deploying to ${{ github.event.inputs.target_env || 'development' }}"
-#           echo ${{ secrets.DB_HOST }}
-
-name: Build & Deploy
+name: Build & Deploy (Manual Only)
 
 on:
   workflow_dispatch:
@@ -47,11 +19,12 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Build once
+      - name: Build
         run: |
-          echo "Building app..."
+          echo "Manual build started"
+          echo "BUILD_ID=${{ github.run_id }}"
           mkdir dist
-          echo "BUILD_ID=${{ github.run_id }}" > dist/build.txt
+          echo "${{ github.run_id }}" > dist/build.txt
 
       - name: Upload build artifact
         uses: actions/upload-artifact@v4
@@ -67,7 +40,6 @@ jobs:
       matrix:
         env: [development, staging]
 
-    # ⭐ THIS IS THE KEY LOGIC
     if: >
       github.event.inputs.deploy_target == 'all' ||
       github.event.inputs.deploy_target == matrix.env
@@ -82,5 +54,6 @@ jobs:
 
       - name: Deploy
         run: |
-          echo "Deploying to: ${{ matrix.env }}"
+          echo "Deploying to ${{ matrix.env }}"
+          echo "Using BUILD_ID:"
           cat dist/build.txt
