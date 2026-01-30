@@ -1,4 +1,32 @@
-name: Deploy App
+# name: Deploy App
+
+# on:
+#   workflow_dispatch:
+#     inputs:
+#       target_env:
+#         description: "Select environment"
+#         required: true
+#         default: development
+#         type: choice
+#         options:
+#           - development
+#           - staging
+
+# jobs:
+#   deploy:
+#     runs-on: ubuntu-latest
+#     environment: ${{ github.event.inputs.target_env || 'development' }}
+
+#     steps:
+#       - name: Checkout code
+#         uses: actions/checkout@v4
+
+#       - name: Deploy
+#         run: |
+#           echo "Deploying to ${{ github.event.inputs.target_env || 'development' }}"
+#           echo ${{ secrets.DB_HOST }}
+
+name: Build & Deploy
 
 on:
   workflow_dispatch:
@@ -6,22 +34,43 @@ on:
       target_env:
         description: "Select environment"
         required: true
-        default: development
         type: choice
         options:
           - development
           - staging
 
 jobs:
-  deploy:
+  build:
     runs-on: ubuntu-latest
-    environment: ${{ github.event.inputs.target_env || 'development' }}
-
+    outputs:
+      build_id: ${{ github.run_id }}
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
+
+      - name: Build app
+        run: |
+          echo "Building once..."
+          mkdir dist
+          echo "Build ID: ${{ github.run_id }}" > dist/build.txt
+
+      - name: Upload build artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: app-build
+          path: dist/
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment: ${{ github.event.inputs.target_env }}
+    steps:
+      - name: Download build artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: app-build
 
       - name: Deploy
         run: |
-          echo "Deploying to ${{ github.event.inputs.target_env || 'development' }}"
-          echo ${{ secrets.DB_HOST }}
+          echo "Deploying SAME build"
+          echo "Build ID: ${{ needs.build.outputs.build_id }}"
+          echo "Environment: ${{ github.event.inputs.target_env }}"
