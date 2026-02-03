@@ -14,7 +14,7 @@
 - 🔭 I’m currently working on **AWS Cloud Projects**
 - 🌱 I’m learning **Terraform, Kubernetes, CI/CD & Monitoring**
 - 💬 Ask me about **AWS, Linux, Networking, DevOps & automation**
-- 📫 Connect with me:  
+- 📫 Connect with me: +91 8490839630
   🌐 [Portfolio](https://bhargavbhalodiya04.github.io/Portfolio/)  
   💼 [LinkedIn](https://www.linkedin.com/in/bhargavbhalodiya/)
 
