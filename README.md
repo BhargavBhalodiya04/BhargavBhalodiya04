@@ -58,9 +58,7 @@
 
 | Certificate | Issued By | Date |
 |------------|----------|------|
-| ✅ **Decoding DevOps – From Basics to Advanced Projects with AI** | Self-Learning / Project-Based | 2025 |
-| ➤ Learned DevOps tools, automation, and CI/CD practices |
-| ➤ Worked with version control, monitoring, and deployment tools to build, automate, and manage scalable cloud-based applications |
+| ✅ **Decoding DevOps – From Basics to Advanced Projects with AI** | Udemy (Instructor: Imran Teli) | Jan 2026 |
 | ✅ **AWS Academy Cloud Foundations** | AWS Academy | April 2025 |
 | ✅ **Linux Essentials** | NDG & Cisco Networking Academy | Oct 2024 |
 | ✅ **Data Visualization using Plotly** | Coursera Project Network | 2024 |
@@ -72,6 +70,7 @@
 | ✅ **System Safeguards** *(Module)* | Cisco Networking Academy | Dec 2024 |
 | ✅ **Threat Analysis** *(Module)* | Cisco Networking Academy | Nov 2024 |
 | ✅ **Cybersecurity Administration** *(Module)* | Cisco Networking Academy | Nov 2024 |
+
 
 ---
 
