@@ -56,22 +56,6 @@
 
 ---
 
-## 💻 Most Used Languages
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=bhargavbhalodiya04&layout=compact&theme=tokyonight&hide_border=true"/>
-</p>
-
----
-
-## 🏆 Trophies
-
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=bhargavbhalodiya04&theme=tokyonight&no-frame=true&margin-w=10"/>
-</p>
-
----
-
 ## 📊 DevOps Focus
 
 - ☁️ AWS Cloud Architecture  
