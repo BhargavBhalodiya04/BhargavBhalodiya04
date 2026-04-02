@@ -5,88 +5,87 @@
 </p>
 
 <p align="center">
-  <b>Cloud & DevOps Enthusiast | Python Developer | AWS Certified | Self-Learner</b>
+  <b>🚀 Cloud & DevOps Enthusiast | 🐍 Python Developer | ☁️ AWS Certified</b>
+</p>
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=bhargavbhalodiya04&label=Profile%20Views&color=0e75b6&style=flat" />
 </p>
 
 ---
 
 ## 🧠 About Me
 
-- 🔭 I’m currently working on **AWS Cloud Projects**
-- 🌱 I’m learning **Terraform, Kubernetes, CI/CD & Monitoring**
-- 💬 Ask me about **AWS, Linux, Networking, DevOps & automation**
-- 📫 Connect with me: +91 8490839630  
-  🌐 [Portfolio](https://bhargavbhalodiya04.github.io/Portfolio/)  
-  💼 [LinkedIn](https://www.linkedin.com/in/bhargavbhalodiya/)
+- 🔭 Currently working on **AWS Cloud Projects**
+- 🌱 Learning **Terraform | Kubernetes | CI/CD | Monitoring**
+- 💬 Ask me about **AWS, Linux, Networking, DevOps & Automation**
+- 📫 Contact: **+91 8490839630**
+
+🌐 [Portfolio](https://bhargavbhalodiya04.github.io/Portfolio/)  
+💼 [LinkedIn](https://www.linkedin.com/in/bhargavbhalodiya/)
 
 ---
 
-## 🚀 Skills
+## 🚀 Tech Stack
 
-<p align="left">
-
-<!-- Cloud & OS -->
-<img src="https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white"/>
-<img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black"/>
-
-<!-- Containers & Orchestration -->
-<img src="https://img.shields.io/badge/Docker-0db7ed?style=for-the-badge&logo=docker&logoColor=white"/>
-<img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white"/>
-
-<!-- Infrastructure as Code & CI/CD -->
-<img src="https://img.shields.io/badge/Terraform-623CE4?style=for-the-badge&logo=terraform&logoColor=white"/>
-<img src="https://img.shields.io/badge/Jenkins-D24939?style=for-the-badge&logo=jenkins&logoColor=white"/>
-<img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white"/>
-
-<!-- Monitoring -->
-<img src="https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white"/>
-<img src="https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white"/>
-<img src="https://img.shields.io/badge/Alertmanager-CC0000?style=for-the-badge&logo=prometheus&logoColor=white"/>
-
-<!-- Version Control -->
-<img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"/>
-<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
-
-<!-- Programming -->
-<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
-
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=aws,linux,docker,kubernetes,terraform,jenkins,githubactions,python,grafana,prometheus,git" />
 </p>
 
 ---
 
 ## 🏅 Certifications
 
-| Certificate | Issued By | Date |
+| Certificate | Issed By | Date |
 |------------|----------|------|
-| ✅ **Decoding DevOps – From Basics to Advanced Projects with AI** | Udemy (Instructor: Imran Teli) | Jan 2026 |
-| ✅ **AWS Academy Cloud Foundations** | AWS Academy | April 2025 |
-| ✅ **Linux Essentials** | NDG & Cisco Networking Academy | Oct 2024 |
-| ✅ **Data Visualization using Plotly** | Coursera Project Network | 2024 |
-| ✅ **Python for Beginners – Data Structures** | Coursera Project Network | 2024 |
-| ✅ **Python for Beginners – Variables & Strings** | Coursera Project Network | 2024 |
-| ✅ **Network Defense** *(Module)* | Cisco Networking Academy | Dec 2024 |
-| ✅ **Introduction to Cybersecurity** | Cisco Networking Academy | Dec 2024 |
-| ✅ **Resource Specialist** *(Module)* | Cisco Networking Academy | Dec 2024 |
-| ✅ **System Safeguards** *(Module)* | Cisco Networking Academy | Dec 2024 |
-| ✅ **Threat Analysis** *(Module)* | Cisco Networking Academy | Nov 2024 |
-| ✅ **Cybersecurity Administration** *(Module)* | Cisco Networking Academy | Nov 2024 |
-
+| ✅ Decoding DevOps – From Basics to Advanced Projects with AI | Udemy | Jan 2026 |
+| ✅ AWS Academy Cloud Foundations | AWS Academy | Apr 2025 |
+| ✅ Linux Essentials | NDG & Cisco | Oct 2024 |
+| ✅ Data Visualization using Plotly | Coursera | 2024 |
+| ✅ Python (Data Structures, Strings, Variables) | Coursera | 2024 |
+| ✅ Cybersecurity Modules | Cisco Networking Academy | 2024 |
 
 ---
 
-## 📊 Monitoring Stack Experience
+## 📊 GitHub Stats
 
-- 📈 **Grafana** – Dashboards & visualization  
-- 🔍 **Prometheus** – Metrics collection  
-- 🚨 **Alertmanager** – Alerting & notifications  
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=bhargavbhalodiya04&show_icons=true&theme=tokyonight&hide_border=true" height="180"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=bhargavbhalodiya04&theme=tokyonight&hide_border=true" height="180"/>
+</p>
+
+---
+
+## 💻 Most Used Languages
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=bhargavbhalodiya04&layout=compact&theme=tokyonight&hide_border=true"/>
+</p>
+
+---
+
+## 🏆 Trophies
+
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=bhargavbhalodiya04&theme=tokyonight&no-frame=true&margin-w=10"/>
+</p>
+
+---
+
+## 📊 DevOps Focus
+
+- ☁️ AWS Cloud Architecture  
+- ⚙️ CI/CD Pipelines (GitHub Actions, Jenkins)  
+- 🐳 Containerization (Docker, Kubernetes)  
+- 📈 Monitoring (Prometheus, Grafana, Alertmanager)  
 
 ---
 
 ## 📫 Contact
 
-- 🌐 **Portfolio:** https://bhargavbhalodiya04.github.io/Portfolio/
-- 💼 **LinkedIn:** https://www.linkedin.com/in/bhargavbhalodiya/
+- 🌐 Portfolio: https://bhargavbhalodiya04.github.io/Portfolio/
+- 💼 LinkedIn: https://www.linkedin.com/in/bhargavbhalodiya/
 
 ---
 
-⭐ *Always learning, building, and improving cloud-native systems*
+⭐ Always learning, building, and improving cloud-native systems
